@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.sudo.zadaca1.MainActivity">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Inspiririrajući ljudi"
+            android:textColor="#F89"
+            android:textSize="35dp" />
+
+        <ImageView
+            android:id="@+id/ivturing"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView2"
+            android:layout_gravity="center"
+            android:src="@drawable/turing" />
+
+        <TextView
+            android:id="@+id/tvturing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_toRightOf="@+id/ivturing"
+
+            />
+
+        <ImageView
+            android:id="@+id/ivbebidz"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvturing"
+            android:layout_gravity="center"
+            android:src="@drawable/bebidz" />
+
+        <TextView
+            android:id="@+id/tvbebidz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvturing"
+            android:layout_toRightOf="@+id/ivbebidz"
+            />
+
+        <ImageView
+            android:id="@+id/ivgrace"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvbebidz"
+            android:layout_gravity="center"
+            android:src="@drawable/grace" />
+
+        <TextView
+            android:id="@+id/tvgrace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvbebidz"
+            android:layout_toEndOf="@+id/ivgrace"
+            android:layout_toRightOf="@+id/ivgrace"
+
+            />
+    </RelativeLayout>
+</ScrollView>
